@@ -1,0 +1,35 @@
+{
+  "gallery" : {
+    "section":{
+      "subsection" : {
+        "planta alta" : {
+          "imagen" : {
+            "nombre" : "",
+            "url" : ""
+          },
+          "programa1":{
+            "información":{
+              "usuario":"",
+              "telefono":"",
+              "nombre":"",
+              "ip": "",
+              "patrimonio":"",
+              "modelo":"",
+              "nc":"",
+              "mc":"1",
+              "in":"1",
+              "micro":"",
+              "observaciones":""
+            }
+          }
+        },
+        "planta baja" : {
+          "elemento" : ""
+        },
+        "planta set" : {
+          "elemento" : ""
+        }
+      }
+    }
+  }
+}

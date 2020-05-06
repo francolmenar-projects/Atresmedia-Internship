@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Inicio | Páginas | Papelera</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+
+
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('../images/backgrounds/01.png');">
+
+    <div class="wrapper row0">
+        <div id="topbar" class="hoc clear">
+
+            <div class="fl_left">
+                <ul>
+                    <li><i class="fa fa-phone"></i> +34 91 123 45 67</li>
+                    <li><i class="fa fa-envelope-o"></i>email@outlook.com</li>
+                </ul>
+            </div>
+            <div class="fl_right">
+                <ul>
+                    <li><a href="../index.html"><i class="fa fa-lg fa-home"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="wrapper row1">
+        <header id="header" class="hoc clear">
+
+            <div id="logo" class="fl_left">
+                <h1><a href="../index.html">Home</a></h1>
+            </div>
+            <nav id="mainav" class="fl_right">
+                <ul class="clear">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li class="active"><a class="drop" href="#">Páginas</a>
+                        <ul>
+                            <li><a id="GaleriaTab" href="#" onClick="return false;">Galería</a></li>
+                            <li><a id="PapeleraTab" href="#" onClick="return false;">Papelera</a></li>
+                            <li><a id="HistorialTab" href="#" onClick="return false;">Historial</a></li>
+                            <li><a id="NuevoTab" href="#" onClick="return false;">Nuevo</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="buscar" href="#">Buscar</a>
+                    </li>
+                    <li><a id="actualizar" href="#">Actualizar</a></li>
+                    <li><a id="eliminar" href="#">Eliminar</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+
+</div>
+<!-- End Top Background Image Wrapper -->
+
+
+<div class="wrapper row2">
+    <div id="breadcrumb" class="hoc clear">
+
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Páginas</a></li>
+            <li><a id="PapeleraTab2" href="#" onClick="return false;">Papelera</a></li>
+        </ul>
+
+    </div>
+</div>
+
+
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        <!-- main body -->
+
+        <div class="content">
+
+            <div id="gallery">
+                <figure>
+                    <footer class="fl_right"><a id="vaciarTodo" class="btn" href="#" onClick="return false;">Vaciar
+                        papelera &raquo;</a></footer>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div id="contentUpTrash" class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <br>
+                                <h2>Vaciar la papelera</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>¿Estás seguro de que quieres vaciar la papelera?</p>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="popVaciar btn" id="confirmarVaciado" href="#">Confirmar</div>
+                                <div class="popCancelar btn" id="cancelarVaciado" href="#">Cancelar</div>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <header class="heading">Planos</header>
+                    <ul id="fotos" class="nospace clear">
+                        <li id="foto1" class="one_quarter first"><a href="#"><img id="1" alt=""></a></li>
+                        <li id="foto2" class="one_quarter"><a href="#"><img img id="2" alt=""></a></li>
+                        <li id="foto3" class="one_quarter"><a href="#"><img img id="3" alt=""></a></li>
+                        <li id="foto4" class="one_quarter"><a href="#"><img img id="4" alt=""></a></li>
+                        <li id="foto5" class="one_quarter first"><a href="#"><img id="5" alt=""></a></li>
+                        <li id="foto6" class="one_quarter"><a href="#"><img img id="6" alt=""></a></li>
+                        <li id="foto7" class="one_quarter"><a href="#"><img img id="7" alt=""></a></li>
+                        <li id="foto8" class="one_quarter"><a href="#"><img img id="8" alt=""></a></li>
+                        <li id="foto9" class="one_quarter first"><a href="#"><img id="9" alt=""></a></li>
+                        <li id="foto10" class="one_quarter"><a href="#"><img img id="10" alt=""></a></li>
+                        <li id="foto11" class="one_quarter"><a href="#"><img img id="11" alt=""></a></li>
+                        <li id="foto12" class="one_quarter"><a href="#"><img img id="12" alt=""></a></li>
+                    </ul>
+                    <figcaption>Todos los planos eliminados</figcaption>
+                </figure>
+            </div>
+
+
+            <nav class="pagination">
+                <ul id="indexPage"></ul>
+            </nav>
+
+        </div>
+
+        <!-- / main body -->
+        <div class="clear"></div>
+    </main>
+</div>
+
+
+<div class="wrapper row4 bgded overlay" style="background-image:url('../images/backgrounds/03.png');">
+    <footer id="footer" class="hoc clear">
+
+        <div class="one_third first">
+        </div>
+        <div class="one_third">
+        </div>
+        <div class="one_third">
+            <ul class="nospace linklist">
+                <li>
+                    <article>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                    </article>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+</div>
+
+
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/modal.js"></script>
+<script src="../layout/scripts/loadImages.js"></script>
+<script src="../layout/scripts/flexBarra.js"></script>
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
